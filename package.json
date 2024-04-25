@@ -1,0 +1,23 @@
+{
+  "name": "atividades_maispraTi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanessasouza142/atividades_maispraTi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanessasouza142/atividades_maispraTi/issues"
+  },
+  "homepage": "https://github.com/vanessasouza142/atividades_maispraTi#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
