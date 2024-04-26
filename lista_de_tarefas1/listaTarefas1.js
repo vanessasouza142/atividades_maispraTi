@@ -1,5 +1,17 @@
 const prompt = require('prompt-sync')();
 
+/* -----------------------------------------------------------
+Instruções para configurar e executar a lista de exercícios localmente:
+1. Certifique-se de ter o Node.js instalado em seu sistema. Se não tiver, você pode baixá-lo e instalá-lo a partir do site oficial: https://nodejs.org/
+2. Clone ou baixe os arquivos da lista de exercícios para um diretório local em seu computador.
+3. Navegue até o diretório onde você salvou os arquivos da lista de exercícios no terminal.
+4. Inicialize um novo projeto Node.js no diretório usando o comando `npm init -y` para criar automaticamente um arquivo package.json.
+   Este arquivo é útil para gerenciar dependências e outras configurações do projeto.
+5. Instale a biblioteca 'prompt-sync' executando o seguinte comando no terminal dentro do diretório do seu projeto: npm install prompt-sync
+6. Para executar o código, navegue até o diretório do seu projeto e execute o arquivo usando node nomeDoArquivo.js no terminal.
+   Isso iniciará o programa e você poderá interagir com ele através do terminal, fornecendo as entradas necessárias conforme solicitado pelo código.
+*/
+
 let questao = parseInt(prompt("Escolha a questão que você quer analisar (1-16): "))
 
 switch (questao) {
