@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Adigiana Toybox';
+  src: url(fonts/AdigianaUI.ttf) format('truetype');
+}
+
+
+body {
+  font-family: 'Adigiana Toybox', Arial, Helvetica, sans-serif;
+}
+
+#container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*Logo */
+
+#logo h1 {
+  float: left;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+#logo a {
+  width: 180px;
+  height: 130px;
+  text-indent: -9999px;
+  text-decoration: none;
+  display: block;
+  background: url(../img/logo1.png) no-repeat center center;
+  background-size: contain;
+}
+
+#logo a:hover {
+  transform: scale(1.1);
+}
+
+/* Barra de Navegação */
+
+header {
+  /* background-color: #c8dbbe; */
+  background-color: #6858EB;
+  color: #ECA634;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+ nav ul li {
+  float: left;
+  margin: 35px 10px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 5px 30px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+  color: #ffffff;  /* Cor dos links normais e visitados */
+
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+  color: #ECA634; /* Cor dos links ao passar o mouse ou clicar */
+}
+
+/*Slogan */
+
+#slogan h2 {
+  background-color: #ECA634;
+  margin: 40px 0px;
+  color: #ffffff;
+  font-size: 90px;
+  margin: 60px 80px 100px 80px;
+  padding: 110px 900px 110px 40px;
+  border-radius: 80px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  border: 10px dashed #6858EB;
+}
+
+/* #img_slogan h2 {
+  float: right;
+  margin-left: 120px;
+  margin-right: 50px;
+}
+
+#img_slogan a {
+  width: 180px;
+  height: 200px;
+  text-indent: -9999px;
+  text-decoration: none;
+  display: block;
+  background: url(../img/img_slogan.jpeg) no-repeat center center;
+  background-size: contain;
+} */
+
+
+/*Produtos */
+
+#secao {
+  background-color: #c8dbbe;
+  border-top: 10px dashed #ECA634;
+  border-bottom: 10px dashed #ECA634;
+  margin: 0px 0px 100px 0px;
+}
+
+#secao h2 {
+  background-color: #c8dbbe;
+  font-size: 35px;
+  color: #6858EB;
+  margin: 0px 80px;
+  padding: 20px 0px;
+  display: inline-block;
+}
+
+#secao ul {
+  text-align: center;
+}
+
+#secao ul li {
+  display: inline-block;
+  margin: 50px 20px 150px 50px;
+}
+
+#secao h3 {
+  margin-top: 270px;
+  color: #6858EB;
+  font-size: 25px;
+}
+
+#img_racao a {
+  width: 250px;
+  height: 250px;
+  border-radius: 130px;
+  text-decoration: none;
+  display: block;
+  background: url(../img/img_racao.png) no-repeat center center;
+  background-size: contain;
+  border: 8px solid #6858EB;
+  background-color: #ffffff;
+
+}
+
+#img_racao a:hover {
+  transform: scale(1.1);
+}
+
+#img_brinquedo a {
+  width: 250px;
+  height: 250px;
+  border-radius: 130px;
+  text-decoration: none;
+  display: block;
+  background: url(../img/img_brinquedo.png) no-repeat center center;
+  background-size: contain;
+  border: 8px solid #6858EB;
+  background-color: #ffffff;
+
+}
+
+#img_brinquedo a:hover {
+  transform: scale(1.1);
+}
+
+#img_acessorio a {
+  width: 250px;
+  height: 250px;
+  border-radius: 130px;
+  text-decoration: none;
+  display: block;
+  background: url(../img/img_acessorio.png) no-repeat center center;
+  background-size: contain;
+  border: 8px solid #6858EB;
+  background-color: #ffffff;
+
+}
+
+#img_acessorio a:hover {
+  transform: scale(1.1);
+}
+
+#img_petisco a {
+  width: 250px;
+  height: 250px;
+  border-radius: 130px;
+  text-decoration: none;
+  display: block;
+  background: url(../img/img_petisco.png) no-repeat center center;
+  background-size: contain;
+  border: 8px solid #6858EB;
+  background-color: #ffffff;
+
+}
+
+#img_petisco a:hover {
+  transform: scale(1.1);
+}
+
+#img_higiene a {
+  width: 250px;
+  height: 250px;
+  border-radius: 130px;
+  text-decoration: none;
+  display: block;
+  background: url(../img/img_higiene.png) no-repeat center center;
+  background-size: contain;
+  border: 8px solid #6858EB;
+  background-color: #ffffff;
+
+}
+
+#img_higiene a:hover {
+  transform: scale(1.1);
+}
+
+#secao p {
+  color: #6858EB;
+  font-size: 20px;
+  margin: 0px 700px 10px 150px;
+  text-align: justify;
+}
+
+
+
